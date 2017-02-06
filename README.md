@@ -10,8 +10,12 @@ L'idée est d'utiliser une page html pour choisir la couleur sur un nuancier, la
 Pour l'instant fonctionne:
 
 La page html du nuancier (allègrement volée ici: http://johndyer.name/photoshop-like-javascript-color-picker/)
+
 le script python prenant pour argument le code RGB de la couleur.
+
+
 Objectifs:
 
 transformer la page du nuancier en un formulaire qui envoi le code RGB à la page PHP d'execution du script
+
 Faire exectuer le script python par la page PHP, avec les bons arguments.
