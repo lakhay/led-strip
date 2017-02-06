@@ -41,12 +41,14 @@
 	
 	</head>
 	<body>
-	
-		<h1>Selectionner la couleur du ruban de LED</h1>
-		
-		<p>Soit dans le nuancier, soit en entrant directement le code HSB, RGB ou HEX de la couleur souhaitée</p>
-	
-		<table>
+
+<form method="post" action="script.php">
+
+<p>
+
+  <h1>Selectionner la couleur du ruban de LED</h1>
+	<p>Soit dans le nuancier, soit en entrant directement le code HSB, RGB ou HEX de la couleur souhaitée</p>
+	<table>
 			<tr>
 				<td valign="top">
 					<div id="cp1_ColorMap"></div>
@@ -155,8 +157,8 @@
 	
 					</table>
 				</td>
-			</tr>
-		</table>
+		  </tr>
+	</table>
 		
 	
 	<div style="display:none;">
@@ -203,6 +205,12 @@
 	
 	
 	</script>
+
+
+        <input type="submit" value="Valider" />
+</p>
+
+</form>
 	
 
 </body>
